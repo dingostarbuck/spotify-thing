@@ -18,7 +18,7 @@ time.sleep(0.5)
 pyautogui.write('spotify')
 time.sleep(0.5)
 pyautogui.press('enter')
-time.sleep(3)
+time.sleep(3)                   # change sleep timer here to however long it takes for spotify to open
 
 # click on first playlist in playlist bar?
 # coordinates =  x:64    y:305
