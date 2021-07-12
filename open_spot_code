@@ -1,0 +1,35 @@
+# macro this bitch to opening spotify and playing a song
+# world record btw lul
+
+
+# load ya packages
+import pyautogui
+import time
+
+# mousing over and clicking windows search and opening spotify via the enter key
+# first mouse position: X: 208 Y:1065
+
+pyautogui.moveTo(208, 1065)
+time.sleep(0.5)
+pyautogui.click()
+
+time.sleep(0.5)
+
+pyautogui.write('spotify')
+time.sleep(0.5)
+pyautogui.press('enter')
+time.sleep(3)
+
+# click on first playlist in playlist bar?
+# coordinates =  x:64    y:305
+pyautogui.moveTo(64, 305)
+time.sleep(0.5)
+pyautogui.click()
+
+# click big play button spotify
+# coordinates = x298, y388
+pyautogui.moveTo(298, 388)
+time.sleep(0.5)
+pyautogui.click()
+
+# jam out to good tunes
